@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Shaik Rehana | Aspiring Full-Stack Developer & AI/ML Engineer">
+
+    <title>Shaik Rehana | Portfolio</title>
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     NAVBAR
+===================================================== -->
+
+<header class="navbar">
+
+    <a href="#home" class="logo">
+        <span>♡</span> Rehana
+    </a>
+
+
+    <nav>
+
+        <a href="#home">Home</a>
+
+        <a href="#about">About</a>
+
+        <a href="#skills">Skills</a>
+
+        <a href="#projects">Projects</a>
+
+        <a href="#education">Education</a>
+
+        <a href="#certifications">Certificates</a>
+
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+
+    <span class="nav-heart">♥</span>
+
+</header>
+
+
+
+<!-- =====================================================
+     HOME
+===================================================== -->
+
+<section id="home" class="hero">
+
+
+    <!-- Decorative hearts -->
+
+    <div class="decor heart-left">♡</div>
+
+    <div class="decor heart-right">♡</div>
+
+    <div class="decor small-heart">♥</div>
+
+
+    <!-- PHOTO -->
+
+    <div class="profile-area">
+
+        <div class="photo-wrapper">
+
+            <div class="photo-circle">
+
+                <img
+                    src="{{ url_for('static', filename='profile.jpg') }}"
+                    alt="Shaik Rehana">
+
+            </div>
+
+
+            <div class="photo-badge">
+                ♥
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- INTRO -->
+
+    <div class="hero-content">
+
+        <p class="hello">
+            Hello, I'm <span>♡</span>
+        </p>
+
+
+        <h1>
+            Shaik Rehana
+        </h1>
+
+
+        <div class="cute-divider">
+            ── ♥ ──
+        </div>
+
+
+        <h2>
+            Aspiring Full-Stack Developer
+            <br>
+            & AI/ML Engineer
+        </h2>
+
+
+        <p class="hero-text">
+
+            B.Tech Computer Science &amp; Engineering
+            (AI &amp; ML) student passionate about building
+            intelligent and user-friendly applications
+            using Python, SQL, AI/ML and modern web
+            technologies.
+
+        </p>
+
+
+        <!-- SOCIAL BUTTONS -->
+
+        <div class="social-buttons">
+
+
+            <a
+                href="https://github.com/rehanashaik89777-lgtm"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub">
+
+                <i class="fa-brands fa-github"></i>
+
+            </a>
+
+
+            <a
+                href="https://www.linkedin.com/in/shaik-rehana-31a298263"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn">
+
+                <i class="fa-brands fa-linkedin-in"></i>
+
+            </a>
+
+
+            <a
+                href="mailto:rehanashaik89777@gmail.com"
+                aria-label="Email">
+
+                <i class="fa-solid fa-envelope"></i>
+
+            </a>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section id="about" class="section">
+
+    <div class="section-heading">
+
+        <h2>About Me</h2>
+
+        <span>✿</span>
+
+    </div>
+
+
+    <div class="heading-line"></div>
+
+
+    <div class="about-layout">
+
+
+        <div class="about-content">
+
+            <p>
+
+                I am a B.Tech Computer Science &
+                Engineering (AI &amp; ML) student interested
+                in Full-Stack Development, Artificial
+                Intelligence and Machine Learning.
+
+            </p>
+
+
+            <p>
+
+                I enjoy building practical projects,
+                solving programming problems and
+                continuously improving my technical
+                skills through learning and hands-on
+                experience.
+
+            </p>
+
+
+            <a href="#skills" class="pink-button">
+
+                Explore My Skills
+
+                <span>→</span>
+
+            </a>
+
+        </div>
+
+
+        <div class="about-art">
+
+            <div class="art-circle">
+
+                <i class="fa-solid fa-laptop-code"></i>
+
+                <span>♥</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     SKILLS
+===================================================== -->
+
+<section id="skills" class="section pink-section">
+
+    <div class="section-heading">
+
+        <h2>My Skills</h2>
+
+        <span>✿</span>
+
+    </div>
+
+
+    <div class="heading-line"></div>
+
+
+    <div class="skills-grid">
+
+
+        <div class="skill-card">
+
+            <div class="skill-icon">
+                <i class="fa-brands fa-python"></i>
+            </div>
+
+            <h3>Python</h3>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <div class="skill-icon">
+                <i class="fa-solid fa-database"></i>
+            </div>
+
+            <h3>SQL</h3>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <div class="skill-icon">
+                <i class="fa-brands fa-html5"></i>
+            </div>
+
+            <h3>HTML</h3>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <div class="skill-icon">
+                <i class="fa-brands fa-css3-alt"></i>
+            </div>
+
+            <h3>CSS</h3>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <div class="skill-icon">
+                <i class="fa-brands fa-js"></i>
+            </div>
+
+            <h3>JavaScript</h3>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <div class="skill-icon">
+                <i class="fa-solid fa-brain"></i>
+            </div>
+
+            <h3>Machine Learning</h3>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <div class="skill-icon">
+                <i class="fa-brands fa-git-alt"></i>
+            </div>
+
+            <h3>Git</h3>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <div class="skill-icon">
+                <i class="fa-brands fa-github"></i>
+            </div>
+
+            <h3>GitHub</h3>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PROJECTS
+===================================================== -->
+
+<section id="projects" class="section">
+
+    <div class="section-heading">
+
+        <h2>My Projects</h2>
+
+        <span>✿</span>
+
+    </div>
+
+
+    <div class="heading-line"></div>
+
+
+    <div class="projects-grid">
+
+
+        <!-- PROJECT 1 -->
+
+        <article class="project-card">
+
+            <div class="project-icon">
+                <i class="fa-solid fa-robot"></i>
+            </div>
+
+
+            <h3>
+                AI Predictive Maintenance
+            </h3>
+
+
+            <p>
+
+                A project based on AI and machine
+                learning concepts for predictive
+                maintenance applications.
+
+            </p>
+
+
+            <a
+                href="https://github.com/rehanashaik89777-lgtm"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-button">
+
+                View on GitHub →
+
+            </a>
+
+        </article>
+
+
+
+        <!-- PROJECT 2 -->
+
+        <article class="project-card">
+
+            <div class="project-icon">
+                <i class="fa-solid fa-coins"></i>
+            </div>
+
+
+            <h3>
+                Smart Currency &amp; Gold Converter
+            </h3>
+
+
+            <p>
+
+                A practical application for currency
+                and gold price conversion and
+                calculations.
+
+            </p>
+
+
+            <a
+                href="https://github.com/rehanashaik89777-lgtm"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-button">
+
+                View on GitHub →
+
+            </a>
+
+        </article>
+
+
+
+        <!-- PROJECT 3 -->
+
+        <article class="project-card">
+
+            <div class="project-icon">
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+
+
+            <h3>
+                BFS and DFS
+            </h3>
+
+
+            <p>
+
+                Practice implementation of Breadth
+                First Search and Depth First Search
+                graph traversal algorithms.
+
+            </p>
+
+
+            <a
+                href="https://github.com/rehanashaik89777-lgtm"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-button">
+
+                View on GitHub →
+
+            </a>
+
+        </article>
+
+
+
+        <!-- PROJECT 4 -->
+
+        <article class="project-card">
+
+            <div class="project-icon">
+                <i class="fa-solid fa-calculator"></i>
+            </div>
+
+
+            <h3>
+                Python Calculator
+            </h3>
+
+
+            <p>
+
+                A simple calculator project developed
+                using Python programming fundamentals.
+
+            </p>
+
+
+            <a
+                href="https://github.com/rehanashaik89777-lgtm"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-button">
+
+                View on GitHub →
+
+            </a>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     EDUCATION
+===================================================== -->
+
+<section id="education" class="section pink-section">
+
+    <div class="section-heading">
+
+        <h2>Education</h2>
+
+        <span>✿</span>
+
+    </div>
+
+
+    <div class="heading-line"></div>
+
+
+    <div class="timeline">
+
+
+        <div class="timeline-item">
+
+            <div class="timeline-icon">
+
+                <i class="fa-solid fa-graduation-cap"></i>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    B.Tech — CSE (AI &amp; ML)
+                </h3>
+
+                <p>
+                    Gauthami Degree College,
+                    Proddatur
+                </p>
+
+                <small>
+                    Started July 2024 — Current
+                </small>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="timeline-item">
+
+            <div class="timeline-icon">
+
+                <i class="fa-solid fa-book"></i>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Diploma — Electrical Engineering
+                </h3>
+
+                <p>
+                    Govt. Polytechnic College
+                </p>
+
+                <small>
+                    GPA: 7.8 / 10
+                </small>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="timeline-item">
+
+            <div class="timeline-icon">
+
+                <i class="fa-solid fa-school"></i>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    SSC — Schooling
+                </h3>
+
+                <p>
+                    Shantiniketan School
+                </p>
+
+                <small>
+                    Score: 89 / 100
+                </small>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="timeline-item">
+
+            <div class="timeline-icon">
+
+                <i class="fa-solid fa-industry"></i>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Industrial Internship
+                </h3>
+
+                <p>
+                    Rayalaseema Thermal Power
+                    Plant (RTPP), YSR
+                </p>
+
+                <small>
+                    2024 – 2025
+                </small>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CERTIFICATIONS
+===================================================== -->
+
+<section id="certifications" class="section">
+
+    <div class="section-heading">
+
+        <h2>Certifications</h2>
+
+        <span>✿</span>
+
+    </div>
+
+
+    <div class="heading-line"></div>
+
+
+    <div class="certificates">
+
+
+        <div class="certificate">
+
+            <div class="certificate-icon">
+
+                <i class="fa-solid fa-award"></i>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    C Programming
+                </h3>
+
+                <p>
+                    PrepInsta Technologies Pvt. Ltd.
+                </p>
+
+                <small>
+                    11 November 2025
+                </small>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="certificate">
+
+            <div class="certificate-icon">
+
+                <i class="fa-solid fa-certificate"></i>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Introduction to Python
+                </h3>
+
+                <p>
+                    Infosys Springboard
+                </p>
+
+                <small>
+                    6 August 2026
+                </small>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section id="contact" class="contact-section">
+
+    <div class="section-heading">
+
+        <h2>Let's Connect</h2>
+
+        <span>♡</span>
+
+    </div>
+
+
+    <div class="heading-line"></div>
+
+
+    <p class="contact-message">
+
+        Let's connect and create something
+        meaningful together. ♥
+
+    </p>
+
+
+    <div class="contact-grid">
+
+
+        <!-- EMAIL -->
+
+        <a
+            href="mailto:rehanashaik89777@gmail.com"
+            class="contact-card">
+
+            <div class="contact-icon">
+
+                <i class="fa-solid fa-envelope"></i>
+
+            </div>
+
+            <div>
+
+                <small>Email</small>
+
+                <strong>
+                    rehanashaik89777@gmail.com
+                </strong>
+
+            </div>
+
+        </a>
+
+
+
+        <!-- LINKEDIN -->
+
+        <a
+            href="https://www.linkedin.com/in/shaik-rehana-31a298263"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-card">
+
+            <div class="contact-icon">
+
+                <i class="fa-brands fa-linkedin-in"></i>
+
+            </div>
+
+            <div>
+
+                <small>LinkedIn</small>
+
+                <strong>
+                    Connect with me
+                </strong>
+
+            </div>
+
+        </a>
+
+
+
+        <!-- GITHUB -->
+
+        <a
+            href="https://github.com/rehanashaik89777-lgtm"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-card">
+
+            <div class="contact-icon">
+
+                <i class="fa-brands fa-github"></i>
+
+            </div>
+
+            <div>
+
+                <small>GitHub</small>
+
+                <strong>
+                    View my profile
+                </strong>
+
+            </div>
+
+        </a>
+
+
+
+        <!-- LOCATION -->
+
+        <div class="contact-card">
+
+            <div class="contact-icon">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+            </div>
+
+            <div>
+
+                <small>Location</small>
+
+                <strong>
+                    Andhra Pradesh, India
+                </strong>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+    <p>
+        © 2026 Shaik Rehana
+    </p>
+
+    <p>
+        Made with ♡
+    </p>
+
+</footer>
+
+
+<!-- JavaScript -->
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
